@@ -1,5 +1,12 @@
 # @backstage/integration
 
+## 1.2.3-next.0
+
+### Patch Changes
+
+- c4b460a47d: Avoid double encoding of the file path in `getBitbucketDownloadUrl`
+- 29f782eb37: Updated dependency `@types/luxon` to `^3.0.0`.
+
 ## 1.2.2
 
 ### Patch Changes

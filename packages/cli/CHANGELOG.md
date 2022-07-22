@@ -1,5 +1,11 @@
 # @backstage/cli
 
+## 0.18.1-next.0
+
+### Patch Changes
+
+- 94155a41e0: Updated dependencies `@svgr/*` to `6.3.x`.
+
 ## 0.18.0
 
 ### Minor Changes

@@ -1,5 +1,24 @@
 # @backstage/backend-common
 
+## 0.15.0-next.0
+
+### Minor Changes
+
+- 12e9b54f0e: Added back support for when no branch is provided to the `UrlReader` for Bitbucket Server
+- 30012e7d8c: - Added `force` and `remoteRef` option to `push` method in `git` actions
+  - Added `addRemote` and `deleteRemote` methods to `git` actions
+
+### Patch Changes
+
+- fc8a5f797b: Improve `scm/git` wrapper around `isomorphic-git` library :
+
+  - Add `checkout` function,
+  - Add optional `remoteRef` parameter in the `push` function.
+
+- 29f782eb37: Updated dependency `@types/luxon` to `^3.0.0`.
+- Updated dependencies
+  - @backstage/integration@1.2.3-next.0
+
 ## 0.14.1
 
 ### Patch Changes

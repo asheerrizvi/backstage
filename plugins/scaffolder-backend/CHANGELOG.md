@@ -1,5 +1,21 @@
 # @backstage/plugin-scaffolder-backend
 
+## 1.5.0-next.0
+
+### Minor Changes
+
+- eeff5046ae: Updated `publish:gitlab:merge-request` action to allow commit updates and deletes
+
+### Patch Changes
+
+- fc8a5f797b: Add a `publish:gerrit:review` scaffolder action
+- Updated dependencies
+  - @backstage/backend-common@0.15.0-next.0
+  - @backstage/integration@1.2.3-next.0
+  - @backstage/backend-plugin-api@0.1.1-next.0
+  - @backstage/plugin-catalog-backend@1.3.1-next.0
+  - @backstage/plugin-catalog-node@1.0.1-next.0
+
 ## 1.4.0
 
 ### Minor Changes
